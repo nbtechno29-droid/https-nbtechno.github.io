@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NB TECHNO - Website Development, Logo Design, Mobile App Development, Digital Marketing and E-Digital Visiting Card services in Gadchiroli, Maharashtra.">
+  <title>NB TECHNO | Digital Solutions</title>
+  <style>
+    :root{--red:#b40000;--dark:#303238;--light:#f7f7f8;--white:#fff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);line-height:1.6;background:#fff}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97);box-shadow:0 2px 14px rgba(0,0,0,.08)}
+    nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand img{height:58px;width:auto;display:block}
+    .menu{display:flex;gap:24px;align-items:center;font-weight:700}
+    .menu a:hover{color:var(--red)}
+    .btn{display:inline-block;padding:13px 22px;border-radius:8px;font-weight:700;border:2px solid var(--red);transition:.2s}
+    .btn.primary{background:var(--red);color:#fff}
+    .btn.primary:hover{background:#8f0000}
+    .btn.outline{color:var(--red);background:#fff}
+    .btn.outline:hover{background:#fff3f3}
+    .hero{background:linear-gradient(135deg,#fff 0%,#f7f7f8 55%,#ffecec 100%);padding:85px 0}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px}
+    .eyebrow{color:var(--red);font-weight:800;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
+    h1{font-size:clamp(42px,6vw,72px);line-height:1.02;margin-bottom:20px}
+    h1 span{color:var(--red)}
+    .hero p{font-size:19px;max-width:650px;color:#555;margin-bottom:28px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .hero-card{background:#fff;border-radius:22px;padding:30px;box-shadow:0 16px 45px rgba(0,0,0,.10);text-align:center}
+    .hero-card img{max-width:100%;height:auto}
+    section{padding:78px 0}
+    .section-head{text-align:center;max-width:720px;margin:0 auto 42px}
+    .section-head h2{font-size:38px;margin-bottom:10px}
+    .section-head p{color:#666}
+    .services{background:var(--light)}
+    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+    .card{background:#fff;padding:26px 20px;border-radius:16px;box-shadow:0 7px 25px rgba(0,0,0,.06);border-top:4px solid var(--red);transition:.2s}
+    .card:hover{transform:translateY(-5px)}
+    .icon{font-size:35px;margin-bottom:12px}
+    .card h3{font-size:19px;margin-bottom:8px}
+    .card p{font-size:14px;color:#666}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+    .about-box{background:var(--dark);color:#fff;padding:38px;border-radius:20px}
+    .about-box h2{font-size:36px;margin-bottom:15px}
+    .about-box span{color:#ff4b4b}
+    .features{display:grid;gap:15px}
+    .feature{display:flex;gap:14px;align-items:flex-start;padding:16px;background:#fafafa;border-radius:12px}
+    .tick{color:var(--red);font-size:22px;font-weight:900}
+    .contact{background:var(--dark);color:#fff}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+    .contact h2{font-size:40px;margin-bottom:12px}
+    .contact p{color:#ddd}
+    .contact-list{display:grid;gap:14px;margin-top:22px}
+    .contact-item{padding:16px;background:#3b3d43;border-radius:10px}
+    .contact-item b{display:block;color:#ff5555;margin-bottom:3px}
+    .contact-item a:hover{color:#ff7777}
+    footer{background:#222;color:#bbb;text-align:center;padding:22px}
+    .float-wa{position:fixed;right:20px;bottom:20px;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:20}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.hero-grid,.about,.contact-grid{grid-template-columns:1fr}.hero{padding:55px 0}}
+    @media(max-width:620px){.menu{display:none}.brand img{height:50px}.grid{grid-template-columns:1fr}.section-head h2{font-size:30px}section{padding:58px 0}.hero p{font-size:17px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="brand" href="#home"><img src="logo.png" alt="NB TECHNO Logo"></a>
+      <div class="menu">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </div>
+      <a class="btn primary" href="https://wa.me/917498826594" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Digital Solutions</div>
+      <h1>Build Your <span>Digital</span> Presence With NB TECHNO</h1>
+      <p>Professional website development, logo design, mobile app development, digital marketing and e-digital visiting cards for businesses and professionals.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/917498826594?text=Hello%20NB%20TECHNO%2C%20I%20want%20to%20know%20about%20your%20services." target="_blank">Get Started</a>
+        <a class="btn outline" href="#services">View Services</a>
+      </div>
+    </div>
+    <div class="hero-card"><img src="logo.png" alt="NB TECHNO"></div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Services</h2>
+      <p>Everything you need to create and grow your business online.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">🌐</div><h3>Website Development</h3><p>Modern, responsive and business-focused websites.</p></div>
+      <div class="card"><div class="icon">🎨</div><h3>Logo Design</h3><p>Professional logos designed for a strong brand identity.</p></div>
+      <div class="card"><div class="icon">📱</div><h3>Mobile App Development</h3><p>User-friendly mobile applications for your business.</p></div>
+      <div class="card"><div class="icon">📣</div><h3>Digital Marketing</h3><p>Digital promotion solutions to help your business reach customers.</p></div>
+      <div class="card"><div class="icon">💳</div><h3>E-Digital Visiting Card</h3><p>Shareable digital visiting cards with your business details.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about">
+    <div class="about-box">
+      <h2>Why <span>NB TECHNO?</span></h2>
+      <p>We create practical digital solutions for businesses, professionals and local brands. Our goal is to make your business look professional online and help customers connect with you easily.</p>
+    </div>
+    <div class="features">
+      <div class="feature"><div class="tick">✓</div><div><b>Responsive Design</b><br>Works smoothly on mobile, tablet and desktop.</div></div>
+      <div class="feature"><div class="tick">✓</div><div><b>Business-Focused Solutions</b><br>Designed around your brand and customer needs.</div></div>
+      <div class="feature"><div class="tick">✓</div><div><b>Easy Customer Contact</b><br>Direct call, email and WhatsApp options.</div></div>
+      <div class="feature"><div class="tick">✓</div><div><b>Local Support</b><br>Based in Gadchiroli, Maharashtra.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <h2>Let's Work Together</h2>
+      <p>Have a website, app, branding or digital marketing requirement? Contact NB TECHNO today.</p>
+      <div class="actions" style="margin-top:25px">
+        <a class="btn primary" href="tel:+917498826594">Call Now</a>
+        <a class="btn outline" href="mailto:nbtechno29@gmail.com">Email Us</a>
+      </div>
+    </div>
+    <div class="contact-list">
+      <div class="contact-item"><b>📞 Contact</b><a href="tel:+917498826594">7498826594</a> &nbsp; | &nbsp; <a href="tel:+918956022265">8956022265</a></div>
+      <div class="contact-item"><b>💬 WhatsApp</b><a href="https://wa.me/917498826594" target="_blank">Chat on WhatsApp</a></div>
+      <div class="contact-item"><b>✉️ Email</b><a href="mailto:nbtechno29@gmail.com">nbtechno29@gmail.com</a></div>
+      <div class="contact-item"><b>📍 Address</b>Behind Reddy Godown, Potegoan Bypass Road, in front of Sai Mandir, Savidhan Chowk, Gadchiroli, Maharashtra 442605.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<a class="float-wa" href="https://wa.me/917498826594" target="_blank" aria-label="WhatsApp">☏</a>
+<footer>© 2026 NB TECHNO. All Rights Reserved.</footer>
+</body>
+</html>
